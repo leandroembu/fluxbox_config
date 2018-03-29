@@ -1,0 +1,17 @@
+dunst
+rofi
+rofi -show dmenu
+rofi -show drun
+rofi -show run
+rofi -key-run F12
+rofi -show window
+rofi -show drun -key-run F12
+htop
+compton
+volumeicon
+xterm
+pcmanfm
+tilix
+leafpad
+nm-applet
+gnome-screenshot
