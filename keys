@@ -1,7 +1,32 @@
+# show desktop
+Mod4 d :ShowDesktop
+Mod4 s :Exec skippy-xd
+
+# Tiling
+Mod4 Left  :MacroCmd {ResizeTo 50% 100%} {MoveTo 00 00 Left}
+Mod4 Right :MacroCmd {ResizeTo 50% 100%} {MoveTo 00 00 Right}
+Mod4 Up    :MacroCmd {ResizeTo 100% 50%} {MoveTo 00 00 Up}
+Mod4 Down  :MacroCmd {ResizeTo 100% 50%} {MoveTo 00 00 Bottom}
+Mod4 6     :MacroCmd {ResizeTo 70% 90%}  {MoveTo 00 00 Center}
+Mod4 7     :MacroCmd {ResizeTo 50% 50%}  {MoveTo 00 00 TopLeft}
+Mod4 8     :MacroCmd {ResizeTo 50% 50%}  {MoveTo 00 00 TopRight}
+Mod4 9     :MacroCmd {ResizeTo 50% 50%}  {MoveTo 00 00 BottomLeft}
+Mod4 0     :MacroCmd {ResizeTo 50% 50%}  {MoveTo 00 00 BottomRight}
+
+# multimedia stuff
+XF86AudioLowerVolume         :ExecCommand pactl set-sink-volume 0 -1000
+XF86AudioRaiseVolume         :ExecCommand pactl set-sink-volume 0 +1000
+XF86AudioPrevious            :ExecCommand playerctl previous
+XF86AudioNext                :ExecCommand playerctl next
+XF86AudioPlay                :ExecCommand playerctl play-pause
+XF86AudioStop                :ExecCommand playerctl stop
+
 # open Mail reader
 Mod4 m :Exec sylpheed
-# open Opera browser
-Mod4 w :Exec opera
+# exec Tilix
+Control Mod1 t :Exec tilix
+# open Firefox browser
+Mod4 w :Exec firefox
 # open PcmanFM
 Mod4 e :Exec pcmanfm
 # undecorate a window

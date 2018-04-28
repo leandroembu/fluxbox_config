@@ -16,3 +16,6 @@ notify-send oi
 dunst
 gnome-screenshot
 nm-applet
+xfce4-clipman
+gksu
+gksu pcmanfm

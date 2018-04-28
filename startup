@@ -20,7 +20,7 @@ nitrogen --restore &
 nm-applet &
 compton &
 volumeicon &
-
+xfce4-clipman &
 
 
 # And last but not least we start fluxbox.
