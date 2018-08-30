@@ -16,20 +16,19 @@
 #     session.menuFile: ~/.fluxbox/my-menu
 [begin] (Fluxbox)
 [encoding] {UTF-8}
-      [exec] (Tilix) {tilix} 
-      [exec] (Xterm) {xterm} 
-      [exec] (Firefox) {firefox}
-      [exec] (Sylpheed) {sylpheed} 
+      [exec] (Terminal) {xfce4-terminal --hide-menubar} 
+      [exec] (Chromium) {chromium}
+      [exec] (Thunderbird) {thunderbird} 
       [exec] (Telegram) {telegram-desktop}
       [exec]   (Run) {fbrun} 
       [separator]
 [submenu] (Internet)
 [submenu] (Browsers)
       [exec]   (Firefox) {firefox} 
-      [exec]   (Opera) {env QT_XFT=true opera} 
+      [exec]   (Chromium) {chromium} 
 [end]
 [submenu] (Mail)
-      [exec]   (Sylpheed) {sylpheed} 
+      [exec]   (Thunderbird) {thunderbird} 
 [end]
 [submenu] (FTP)
       [exec]   (Filezilla) {filezilla} 
@@ -61,8 +60,8 @@
       [exec]   (xpdf) {xpdf} 
 [end]
 [submenu] (System Tools)
-      [exec]   (Htop) {tilix -e htop} 
-      [exec]   (System Monitor) {gnome-system-monitor} 
+      [exec]   (Htop) {xfce4-terminal --hide-menubar -e htop} 
+      [exec]   (System Monitor) {xfce4-taskmanager} 
 [end]
 [submenu] (Fluxbox menu)
       [config] (Configure) 

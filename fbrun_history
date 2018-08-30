@@ -1,12 +1,15 @@
 rofi
-rofi -show dmenu
-rofi -show drun
-rofi -show run
-rofi -key-run F12
-rofi -show window
-rofi -show drun -key-run F12
-htop
-xterm
+rofi -shvolumeicon
+notirtelegram
+rambox
+gnome-screenshot
+nm-applet
+xfce4-clipman
+gksu
+gksu pcmanfm
+xfce4-terminal
+compton
+m
 pcmanfm
 leafpad
 tilix
@@ -19,3 +22,11 @@ nm-applet
 xfce4-clipman
 gksu
 gksu pcmanfm
+xfce4-terminal
+pnmixer
+rambox
+telegram
+xfce4-taskmanager
+pkexec thunar
+synaptic
+xfce4-panel
